@@ -1,0 +1,19 @@
+.card{
+    width: auto;
+    height: 300px;
+    display: flex;
+    padding: 5px 2px;
+    
+}
+
+.card:hover{
+    box-shadow: rgba(136, 148, 190, 0.2) 0px  15px 25px, rgba(136, 148, 190, 0.15) 0px -15px 10px;
+    transform: translateY(-10px);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card img{
+    border-radius: 20px;
+    height: 200px;
+}

@@ -1,0 +1,33 @@
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.working{
+    border: 2px solid rgba(172, 255, 47, 0.329);
+    border-radius: 10px;
+    
+}

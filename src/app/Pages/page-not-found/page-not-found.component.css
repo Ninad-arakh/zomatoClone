@@ -1,0 +1,16 @@
+.not-found{
+    cursor: pointer;
+    background-size: cover;
+    background: no-repeat center fixed;
+    margin-left: 100px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .not-found img {
+        width: 100%;
+        margin-left: -80px;
+        /* Adjust image width for smaller screens */
+    }
+}

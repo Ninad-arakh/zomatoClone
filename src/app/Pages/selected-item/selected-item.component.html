@@ -1,0 +1,26 @@
+<div *ngFor="let item of get" class="list">
+    <div *ngIf="item.restaurentId == recieved.id">
+        <h2>
+            <div class="card">
+
+                <img [src]="item.photoUrl" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi illum magni, dolor nostrum
+                    odio cum! Random text gentrated.....</p>
+                <div class="card2">
+                    <div class="content">
+                        <h2 [hidden]="ishidden1">Price : {{item.price}}</h2>
+                        <h2 [hidden]="ishidden">Price : {{price}}</h2>
+                        <h2>Quantity : {{quant}}</h2>
+                    </div>
+                    <div class="btnn">
+                        <button class="btn" (click)="onincrease(item.price,item.price)"> + </button>
+                        <button class="btn" (click)="ondecre(item.price,item.price)"> - </button>
+                    </div>
+                    <div class="cart">
+                        <button (click)="buy()">Buy Now!</button>
+                    </div>
+                </div>
+            </div>
+        </h2>
+    </div>
+</div>

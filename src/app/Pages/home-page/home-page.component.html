@@ -1,0 +1,14 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Foods with great taste</h1>
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col" *ngFor="let item of categories">
+            <div class="card" (click)="onItemClick(item)">
+
+                <img [src]="item.photoUrl" class="card-img-top" alt="">
+                
+                <h3>{{item.shopName}}</h3>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col" *ngFor="let shop of item" >
+            <div class="card" (click)="onItem(shop)">
+                <img [src]="shop.photoUrl" alt="">
+                <h4 class="text-center card-title">{{shop.restaurentName}}</h4>
+                <p class="text-muted text-center">{{" " + shop.price  | currency:'IND':'symbol'}} </p>
+            </div>
+        </div>
+    </div>
+
+</div>

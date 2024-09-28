@@ -1,5 +1,7 @@
 # Zomato
 
+![Screenshot 2024-09-29 000520](https://github.com/user-attachments/assets/64470fb0-4f6c-46c0-8d22-3f720c9f16ea)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
 ## Development server
